@@ -3,6 +3,7 @@ body{
     background-color: white;
     font-family: Plus Jakarta Sans;
     font-style: normal;
+    position: relative;
 }
 .container{
     max-width: 1320px;
@@ -40,7 +41,7 @@ margin-left: 17px;
     align-items: center;
     list-style-type: none;
 }
-.header-nav-ul-item a, .getstarted-button{
+.header-nav-ul-item a, .header-button, .main-first-button{
     color: #000;
 /* PJ/Semi-bold/16px */
 font-size: 16px;
@@ -48,11 +49,12 @@ font-weight: 500;
 line-height: 24px; /* 150% */
 text-decoration: none;
 }
-.getstarted-button-green{
-    padding: 16px;
-    background-color: #DBF301;
+.header-button-green, .main-button-green{
     border-radius: 10px;
-    margin-left: 24px;
+background: #DBF301;
+padding: 14px 16px;
+margin-left: 24px;
+
 }
 .main-first{
     display: flex;
@@ -80,7 +82,7 @@ margin-bottom: 36px;
     line-height: 36px; /* 150% */
     margin-bottom: 36px;
 }
-.bookdemo-button{
+.main-first-button-animated{
     background: rgba(163, 150, 150, 0.00);
     border-radius: 10px;
 border: 1px solid #DBF301;
@@ -95,7 +97,7 @@ line-height: 24px; /* 150% */
 text-decoration: none;
 position: relative;
 }
-.bookdemo-button::before{
+.main-first-button-animated::before{
     content: '';
     position: absolute;
     width: 230px;
@@ -109,7 +111,36 @@ position: relative;
     z-index: -1;
 }
 
-.bookdemo-button:hover::before{
+.main-first-button-animated:hover::before{
     visibility: visible;
     right: -55px;
+}
+.main-first-buttons{
+    display: flex;
+    align-items: center;
+}
+.main-companies{
+    display: flex;
+    align-items: center;
+    gap: 206px;
+    justify-content: center;
+    margin-top: 360px;
+}
+.main-pluses{
+    display: flex;
+    justify-content: center;
+    margin-top: 278px;  
+    flex-direction: column;
+    align-items: center;
+}
+.main-pluses-table-table td{
+    width: 330px;
+height: 188px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.main-pluses-table table{
+    display: flex!important;
 }
