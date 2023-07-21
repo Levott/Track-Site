@@ -12,7 +12,7 @@ body {
 .body__wrapper{
     width: 100%;
     position: relative;
-    background: url(Images/avatar.svg) no-repeat top 551px left 89px,url(Images/ellipse.svg) no-repeat top 255px left 165px,url(Images/kvadrat.svg) no-repeat top 304px right 145px,url(Images/done.svg) no-repeat top 705px right 142px;
+    background: url(ImagesPseudo/avatar.svg) no-repeat top 551px left 89px,url(ImagesPseudo/ellipse.svg) no-repeat top 255px left 165px,url(ImagesPseudo/kvadrat.svg) no-repeat top 304px right 145px,url(ImagesPseudo/done.svg) no-repeat top 705px right 142px;
     margin-top: 20px;
     height: 4500px;
 
